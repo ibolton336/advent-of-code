@@ -11,5 +11,8 @@ for(i in array) {
     currentTotalList = [];
   }
 }
-
+console.log('sorted', listOfTotals.sort().reverse())
+console.log('top3 sum', 
+  listOfTotals[0] + listOfTotals[1] + listOfTotals[2]
+)
 
